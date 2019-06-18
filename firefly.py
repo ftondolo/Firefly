@@ -6,12 +6,12 @@ import cv2
 import os
 
 def main():
+    # Creating OUTPUT directory
+    os.mkdir('OUTPUT')
     # Loops for every file inside current dir
     for filename in os.listdir('.'):
         # If file is a video file
         if (filename.endswith(".wmv")):
-            # Creating OUTPUT directory
-            os.mkdir('OUTPUT')
             cap = cv2.VideoCapture(filename)
             # Initialisation of frame_counting variable
             frame_count=0
@@ -25,16 +25,16 @@ def main():
                 frame_count+=1
                 # If frame is bit within 21 seconds of first trigger
                 if (frame_count>=next_valid):
-                    print ('%d------->%d'%(frame_count, next_valid))
                     # Initialisation of supporting variables
                     flag, frame = cap.retrieve()
-                    # Cropping
+                    # Cropping and Brightening
                     imCrop = frame[80:95,150:175]
-                    if finder(imCrop):
+                    brightest = cv2.threshold(imCrop, 200, 255, cv2.THRESH_BINARY)[1]
+                    if finder(brightest):
                         count+=1
                         start= (frame_count/30)-20
-                        next_valid=((start+45)*30)
-                        os.system('ffmpeg -i {0} -ss {1} -t 40 -c copy ./OUTPUT/output_{2}-{3}.wmv'.format(filename, start, filename[:-4], count))
+                        next_valid=((start+60)*30)
+                        os.system('ffmpeg -i {0} -ss {1} -t 40 ./OUTPUT/output_{2}-{3}.wmv'.format(filename, start, filename[:-4], count))
          # If file is not a video 
         else:
             continue
