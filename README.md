@@ -19,4 +19,4 @@ _Administrator Privileges Required_
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
 3) Double-click on firefly.py<br>
 4) Wait for completion, should take about 20 seconds per 10-minute video <br>
-**DO NOT MANIPULATE THE FILE STRUCTURE UNTILL THE PROGRAM FINISHES**
+**DO NOT MANIPULATE THE FILE STRUCTURE UNTIL THE PROGRAM FINISHES**
