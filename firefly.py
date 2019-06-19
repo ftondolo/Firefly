@@ -27,9 +27,18 @@ def main():
                 if (frame_count>=next_valid):
                     # Initialisation of supporting variables
                     flag, frame = cap.retrieve()
-                    # Cropping and Brightening
-                    imCrop = frame[80:95,150:175]
-                    brightest = cv2.threshold(imCrop, 200, 255, cv2.THRESH_BINARY)[1]
+                    # Frame manipulation begins here
+                    mask = np.zeros(frame.shape, dtype=np.uint8)
+                    # Defining of ROI
+                    roi_corners = np.array([[(70,33), (100,25), (165, 45), (165,55)]], dtype=np.int32)
+                    # FIlling the ROI
+                    ignore_mask_color = (255,)*2
+                    cv2.fillPoly(mask, roi_corners, ignore_mask_color)
+                    # Applying the mask
+                    masked_image = cv2.bitwise_and(frame, mask)
+                    # Blurring and brightening the resulting frame
+                    blur = cv2.blur(masked_image,(6,4))
+                    brightest = cv2.threshold(blur, 200, 255, cv2.THRESH_BINARY)[1]
                     if finder(brightest):
                         count+=1
                         start= (frame_count/30)-20
@@ -44,6 +53,9 @@ def finder(im):
     params = cv2.SimpleBlobDetector_Params()
     params.filterByColor = 1
     params.blobColor=255
+    params.filterByArea = 1
+    params.maxArea=150
+    params.minArea=25
     detector = cv2.SimpleBlobDetector_create(params)
     # Detect blobs
     keypoints = detector.detect(im)
