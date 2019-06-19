@@ -1,18 +1,20 @@
 # Firefly
-Program created with the purpose of analysing a video and creating 40 second long snippets based on the status of a lightbulb.  More specifically, when the lightbulb is first found to be on, the code createws a wmv file of the preceeding 20 seconds and the 20 seconds following the activation of said lightbulb.  The program works its magic on every single wmv file in its directory creating an OUTPUT folder within the aforementioned directory in which files with the format 'output_<filename>-<clip#>.wmv'. As you can see, the program creates a clip for every single lightbulb activation within a file, no matter how many, as long as they do not occur within 20 seconds of the previous lightbulb activation (as this would be part of the previous truncated clip.
+Program created with the purpose of analysing a video and creating 40 second long snippets based on the status of a lightbulb.  More specifically, when the lightbulb is first found to be on, the code createws a wmv file of the preceeding 20 seconds and the 20 seconds following the activation of said lightbulb.  The program works its magic on every single wmv file in its directory creating an OUTPUT folder within the aforementioned directory in which files with the format 'output_<filename>-<clip#>.wmv'. As you can see, the program creates a clip for every single lightbulb activation within a file, no matter how many, **as long as they do not occur within 20 seconds of the previous lightbulb activation** (as this would be part of the previous truncated clip.
   
-Due to the naming structure, it is necessary that there are no folders named 'OUTPUT' in the program's directory, and that every wmv filename have no spaces in it. Moreover, for a proper reading, it is necessary for the lightbulb to be within the region shown below. Lastly, if possible, place lightbulb in such a way as to eliminate extraneous light in its immediate vicinity whether it be caused by other lights or the lightbulb's own reflection (Tip: electrical tape square under the light solves both of these problems).
+## Important Notice
+Due to the naming structure, it is necessary that there are no folders named 'OUTPUT' in the program's directory, and that every wmv filename have no spaces in it. Moreover, for a proper reading, it is necessary for the lightbulb to be within the region shown below. Lastly, if possible, place lightbulb in such a way as to eliminate extraneous light in its immediate vicinity whether it be caused by other lights or the lightbulb's own reflection *Tip: electrical tape square under the light solves both of these problems*.
 
 The framing of mouse 61's recall test under the effects of Citalopram was spot on! ;)
 
 ![alt text](https://raw.githubusercontent.com/ftondolo/Firefly/master/image.png)
 
 # Install
-1) Download and install all of the following files in the order in which they appear:<br>
+1) Download and install all of the following files **in the order in which they appear:**<br>
   Visual Studio 2019 : https://aka.ms/vs/16/release/vc_redist.x64.exe<br>
   Python 3.7.3 : https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe<br>
   Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
   OpenCV 3.2 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined.<br>
 3) Double-click on firefly.py<br>
-4) Wait for completion, should take about 20 secondss per 10-minute video-time, DO NOT MANIPULATE THE FILE STRUCTURE UNTILL THE PROGRAM FINISHES
+4) Wait for completion, should take about 20 secondss per 10-minute video-time, <br>
+**DO NOT MANIPULATE THE FILE STRUCTURE UNTILL THE PROGRAM FINISHES**
