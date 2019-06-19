@@ -5,7 +5,7 @@ Program created with the purpose of analysing a video and creating 40 second lon
 Due to the naming structure, __it is necessary that there are no folders named 'OUTPUT' in the program's directory, and that every wmv filename have no spaces in it__. Moreover, __for a proper reading, it is necessary for the lightbulb to be within the region shown below__. Lastly, if possible, place lightbulb in such a way as to eliminate extraneous light in its immediate vicinity whether it be caused by other lights or the lightbulb's own reflection <br>
 *Tip: An electrical tape square under the light solves both of these problems*.
 
-The framing of mouse 61's recall test under the effects of Citalopram was spot on! ;)
+For future reference: the framing of mouse 61's recall test under the effects of Citalopram was spot on! ;)
 
 ![alt text](https://raw.githubusercontent.com/ftondolo/Firefly/master/image.png)
 
