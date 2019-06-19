@@ -15,7 +15,7 @@ The framing of mouse 61's recall test under the effects of Citalopram was spot o
   Python 3.7.3 : https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe<br>
   Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
   OpenCV 3.2 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download<br>
-2) Download firefly.py and position it in a folder with all of the wmv files you want examined.<br>
+2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
 3) Double-click on firefly.py<br>
-4) Wait for completion, should take about 20 secondss per 10-minute video-time, <br>
+4) Wait for completion, should take about 20 seconds per 10-minute video <br>
 **DO NOT MANIPULATE THE FILE STRUCTURE UNTILL THE PROGRAM FINISHES**
