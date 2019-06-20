@@ -18,9 +18,11 @@ _Administrator Privileges Required_
    
     NumPy : Open CMD and type `pip install numpy`<br>
      ffmpy : Open CMD and type `pip install ffmpy`<br>
-    Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
-    OpenCV 3.2 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download<br>
+    OpenCV : Open CMD and type `pip install opencv-python`<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
-3) Double-click on firefly.py<br>
+3) Open IDLE (Python 3.7 64-bit)
+ > File->Open...-><location where you downloaded firefly.py>
+4)Run firefly.py
+ > Run->Run Module
 4) Wait for completion, should take about 20 seconds per 10-minute video <br>
 **DO NOT MANIPULATE THE FILE STRUCTURE UNTIL THE PROGRAM FINISHES**
