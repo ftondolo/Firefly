@@ -16,8 +16,7 @@ _Administrator Privileges Required_
   Python 3.7.3 : https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe<br> 
    > Custom->Next->Add Python to environment variables<br>
   
-   NumPy : 
-  > Open CMD and type `pip install numpy`<br>
+   NumPy : Open CMD and type `pip install numpy`<br>
   
     Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
     OpenCV 3.2 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download<br>
