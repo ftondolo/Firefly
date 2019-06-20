@@ -23,7 +23,7 @@ _Administrator Privileges Required_
 3) Open firefly.py in IDLE (Python 3.7 64-bit)
    > File->Open...
   
-4)Run firefly.py
+4) Run firefly.py
     > Run->Run Module
   
 5) Wait for completion, should take about 20 seconds per 10-minute video <br>
