@@ -14,8 +14,9 @@ _Administrator Privileges Required_
 1) Download and install all of the following files **in the order in which they appear:**<br>
   Visual Studio 2019 : https://aka.ms/vs/16/release/vc_redist.x64.exe<br>
   Python 3.7.3 : https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe<br> 
-   > Custom->Next->Add Python to environment variables<br>
-   NumPy : Open CMD and type `pip install numpy`<br>
+   > Custom->Next->Add Python to environment variables
+   
+    NumPy : Open CMD and type `pip install numpy`<br>
      ffmpy : Open CMD and type `pip install ffmpy`
      
     Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
