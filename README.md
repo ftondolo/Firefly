@@ -17,7 +17,6 @@ _Administrator Privileges Required_
    > Custom->Next->Add Python to environment variables<br>
   
    NumPy : Open CMD and type `pip install numpy`<br>
-  
     Anaconda : https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe<br>
     OpenCV 3.2 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/opencv-3.2.0-vc14.exe/download<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
