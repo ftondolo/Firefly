@@ -24,7 +24,7 @@ _Administrator Privileges Required_
    > File->Open...
   
 4)Run firefly.py
-   > Run->Run Module
+    > Run->Run Module
   
-4) Wait for completion, should take about 20 seconds per 10-minute video <br>
+5) Wait for completion, should take about 20 seconds per 10-minute video <br>
 **DO NOT MANIPULATE THE FILE STRUCTURE UNTIL THE PROGRAM FINISHES**
