@@ -1,4 +1,4 @@
-# FireflyP
+# Firefly
 Program created with the purpose of analysing a video and creating 40 second long snippets based on the status of a lightbulb.  More specifically, when the lightbulb is first found to be on, the code createws a wmv file of the preceeding 20 seconds and the 20 seconds following the activation of said lightbulb.  The program works its magic on every single wmv file in its directory creating an OUTPUT folder in which files with the format  `output_<filename>-<clip#>.wmv` are saved. As you can see, the program creates a clip for every single lightbulb activation within a file, no matter how many, **as long as they do not occur within 20 seconds of the previous lightbulb activation** (as this would be part of the previous truncated clip.
   
 ## Notice
