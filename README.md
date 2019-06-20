@@ -19,6 +19,7 @@ _Administrator Privileges Required_
     NumPy : Open CMD and type `pip install numpy`<br>
      ffmpy : Open CMD and type `pip install ffmpy`<br>
     OpenCV : Open CMD and type `pip install opencv-python`<br>
+    ffmpeg : https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20190620-86f04b9-win64-static.zip<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
 3) Open firefly.py in IDLE (Python 3.7 64-bit)
    > File->Open...
