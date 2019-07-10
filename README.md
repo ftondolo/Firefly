@@ -33,17 +33,14 @@ _Administrator Privileges Required_
 
 
 ## Debian Install
-
+_Administrator Privileges Required_
 1) Download and install all of the following files **in the order in which they appear:**<br>
-    - Visual Studio 2019 : https://aka.ms/vs/16/release/vc_redist.x64.exe<br>
-    - Python 3.7.3 : https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe<br> 
-      > Custom->Next->Add Python to environment variables
-   
-    - NumPy : Open CMD and type `pip install numpy`<br>
-    - ffmpy : Open CMD and type `pip install ffmpy`<br>
-    - OpenCV : Open CMD and type `pip install opencv-python`<br>
-    - ffmpeg : https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20190620-86f04b9-win64-static.zip<br>
-      - Follow instructions found here : https://www.wikihow.com/Install-FFmpeg-on-Windows
+    - Python 3.x.x : `sudo apt-get install python3`<br>
+    - Pip : `sudo apt-get install python-pip`<br> 
+    - ffmpeg : `sudo apt-get install ffmpeg`<br>
+    - ffmpy :`pip install ffmpy`<br>
+    - NumPy : `pip install  numpy`<br>
+    - OpenCV : `pip install opencv-python'<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
 3) Open firefly.py in IDLE (Python 3.7 64-bit)
    > File->Open...
