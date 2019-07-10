@@ -21,7 +21,7 @@ _Administrator Privileges Required_
     - OpenCV : Open CMD and type `pip install opencv-python`<br>
     - ffmpeg : https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20190620-86f04b9-win64-static.zip<br>
       - Follow instructions found here : https://www.wikihow.com/Install-FFmpeg-on-Windows
-2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
+2) Download firefly.py and position it in a folder with all of the .wmv files you want examined<br>
 3) Open firefly.py in IDLE (Python 3.7 64-bit)
    > File->Open...
   
@@ -39,8 +39,8 @@ _Administrator Privileges Required_
     - ffmpeg : `sudo apt-get install ffmpeg`<br>
     - ffmpy :`pip install ffmpy`<br>
     - NumPy : `pip install  numpy`<br>
-    - OpenCV : `pip install opencv-python'<br>
-2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
+    - OpenCV : `pip install opencv-python`<br>
+2) Download firefly.py and position it in a folder with all of the .wmv files you want examined<br>
 3) Open a Terminal window and navigate to the directory which you have selected
    > `cd /...`
   
