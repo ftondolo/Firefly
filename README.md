@@ -42,7 +42,7 @@ _Administrator Privileges Required_
     - OpenCV : `pip install opencv-python'<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
 3) Open a Terminal window and navigate to the directory which you have selected
-   > cd /...
+   > `cd /...`
   
 4) Run firefly.py
     > `python firefly.py`
