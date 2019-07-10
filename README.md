@@ -35,17 +35,18 @@ _Administrator Privileges Required_
 ## Debian Install
 _Administrator Privileges Required_
 1) Download and install all of the following files **in the order in which they appear:**<br>
-    - Python 3.x.x : `sudo apt-get install python3`<br>
     - Pip : `sudo apt-get install python-pip`<br> 
     - ffmpeg : `sudo apt-get install ffmpeg`<br>
     - ffmpy :`pip install ffmpy`<br>
     - NumPy : `pip install  numpy`<br>
     - OpenCV : `pip install opencv-python'<br>
 2) Download firefly.py and position it in a folder with all of the wmv files you want examined<br>
-3) Open firefly.py in IDLE (Python 3.7 64-bit)
-   > File->Open...
+3) Open a Terminal window and navigate to the directory which you have selected
+   > cd /...
   
 4) Run firefly.py
-    > Run->Run Module
+    > `python firefly.py`
   
 5) Wait for completion, should take about 20 seconds per 10-minute video <br>
+**DO NOT MANIPULATE THE FILE STRUCTURE OR THE TERMINAL WINDOW UNTIL THE PROGRAM FINISHES**
+**IF YOU WISH TO PLAY THE .WMV FILES THEN YOU WILL NEED TO INSTALL UBUNTU RESTRICTED EXTRAS**
