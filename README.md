@@ -30,7 +30,7 @@ _Administrator Privileges Required_
   
 5) Wait for completion, should take about 20 seconds per 10-minute video <br>
 **DO NOT MANIPULATE THE FILE STRUCTURE UNTIL THE PROGRAM FINISHES**
-<br>
+
 
 ## Debian Install
 
