@@ -5,6 +5,10 @@ import ffmpy
 import cv2
 import os
 
+video_length = 40
+prologue = 20
+safe_space=20
+
 def main():
     # Creating OUTPUT directory
     os.mkdir('OUTPUT')
@@ -41,9 +45,9 @@ def main():
                     brightest = cv2.threshold(blur, 200, 255, cv2.THRESH_BINARY)[1]
                     if finder(brightest):
                         count+=1
-                        start= (frame_count/30)-20
-                        next_valid=((start+60)*30)
-                        os.system('ffmpeg -i {0} -ss {1} -t 40 ./OUTPUT/output_{2}-{3}.wmv'.format(filename, start, filename[:-4], count))
+                        start= (frame_count/30)-prologue
+                        next_valid=((start+prologue+video_length)*30)
+                        os.system('ffmpeg -i {0} -ss {1} -t {2} ./OUTPUT/output_{3}-{4}.wmv'.format(filename, start, video_length, filename[:-4], count))
          # If file is not a video 
         else:
             continue
