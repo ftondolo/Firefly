@@ -5,8 +5,8 @@ import ffmpy
 import cv2
 import os
 
-video_length = 40
-prologue = 20
+video_length=40
+prologue=20
 safe_space=20
 
 def main():
