@@ -2,7 +2,7 @@
 Program created with the purpose of analysing a video and creating 40 second long snippets based on the status of a lightbulb.  More specifically, when the lightbulb is first found to be on, the code createws a .WMV file of the preceeding 20 seconds and the 20 seconds following the activation of said lightbulb.  The program works its magic on every single wmv file in its directory creating an OUTPUT folder in which files with the format  `output_<filename>-<clip#>.wmv` are saved. As you can see, the program creates a clip for every single lightbulb activation within a file, no matter how many, **as long as they do not occur within 20 seconds of the previous lightbulb activation** (as this would be part of the previous truncated clip.
   
 ## Notice
-__For a proper reading, it is necessary for the lightbulb to be within the region shown below__. Moreover, if possible, place lightbulb in such a way as to eliminate extraneous light in its immediate vicinity whether it be caused by other lights or the lightbulb's own reflection <br>
+__For a proper reading, it is necessary for the lightbulb to be within the region shown below__. Moreover, if possible, place lightbulb in such a way as to eliminate extraneous light in its immediate vicinity whether it be caused by other lights or the lightbulb's own reflection  Spaces in filenames are allowed!<br>
 *Tip: An electrical tape square under the light solves both of these problems*.
 
 For future reference: the framing of mouse 61's recall test under the effects of Citalopram was spot on! ;)
