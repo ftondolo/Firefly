@@ -48,7 +48,7 @@ def main():
                         count+=1
                         start= (frame_count/30)-prologue
                         next_valid=((start+prologue+video_length)*30)
-                        subprocess.call(['ffmpeg', '-i', filename, '-ss', str(start), '-t', str(video_length), ('./OUT
+                        subprocess.call(['ffmpeg', '-i', filename, '-ss', str(start), '-t', str(video_length), ('./OUTPUT/output_'+filename[:-4]+'-'+str(count)+'.wmv')])
          # If file is not a video 
         else:
             continue
